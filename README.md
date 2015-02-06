@@ -23,6 +23,8 @@ HTML5(Web)の知識を使った、クロスデバイス/クロスプラット開
 * ネイティブとハイブリッドの違い
 * 外部機器連携
 * 技術周辺状況
+* サードパーティWeb API（Facebook/Twitterなど）
+* マイコンボード（Intel Edison / Rasberry pi2 / JSboard系 / .NET Gagetterなど）
 
 対象者
 ====
