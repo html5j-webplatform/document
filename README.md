@@ -23,6 +23,7 @@ HTML5(Web)の知識を使った、クロスデバイス/クロスプラット開
 * サードパーティWeb API（Facebook/Twitterなど）
 * マイコンボード（Intel Edison / Rasberry pi2 / JSboard系 / .NET Gagetterなど）
 ===
+
 ### 対象者
 対象 : デバイス屋、Web 開発者  
 毎回、勉強会テーマとともに対象者と、難易度のレベルを表示していく  
