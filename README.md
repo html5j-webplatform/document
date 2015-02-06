@@ -21,7 +21,8 @@ HTML5(Web)の知識を使った、クロスデバイス/クロスプラット開
 * 外部機器連携
 * 技術周辺状況
 * サードパーティWeb API（Facebook/Twitterなど）
-* マイコンボード（Intel Edison / Rasberry pi2 / JSboard系 / .NET Gagetterなど）
+* マイコンボード（Intel Edison / Rasberry pi2 / JSboard系 / .NET Gagetterなど）  
+
 ===
 
 ### 対象者
@@ -37,7 +38,7 @@ webplat.html5j.org
   
 ### ATND について  
 * WebPlat の twitter のアカウントを作成し、共有
-* doorkeeper も検討
+* doorkeeper も検討  
 ===
 
 ### 勉強会の実施について
