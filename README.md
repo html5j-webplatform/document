@@ -14,7 +14,7 @@ HTML5(Web)の知識を使った、クロスデバイス/クロスプラット開
 ### 実施予定
 * マネタイズマネタイズ /エコシステム（2/16予定）
 * ライブラリ/フレームワーク（3/9予定）
-* サードパーティWeb API（Facebook/Twitterなど）（4月予定）
+* サードパーティWeb API（Facebook/Twitterなど）（4月予定）  
 　　- FBさんにお声掛け済み（広報OKが必要なので概要を固めて連絡くださいとのこと）
 　　- 楽天さんにお声掛け済み（平日なら比較的OKと）  
 * 開発ボード話（Arduino / Intel Edison / Rasberry pi2 / JSboard系 / .NET Gagetterなど）（5月予定）
