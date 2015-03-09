@@ -12,16 +12,25 @@ HTML5(Web)の知識を使った、クロスデバイス/クロスプラット開
 * html5 デバイス API 【第4回】
 * アプリストアでがっぽり儲けNight（マネタイズマネタイズ /エコシステム）【第5回】
 
-### 実施予定
+### 実施予定ネタ
 
-* ライブラリ/フレームワーク（3/9予定）
-* サードパーティWeb API（Facebook/Twitterなど）（4月予定）  
+* ライブラリ/フレームワーク（3/24予定）
+    - COCOS 2D HTML5、Sencha Touch、jQuery Mobile
+    - Create.js、enchant.js, KENDO UI, TopCoat, OnsenUI,WinJS,Three.js
+* サードパーティWeb API（Facebook/Twitterなど）（4月くらい？）  
+【内容について】
+    - SNS系のAPIとそうでないAPI（アフィリエイト用 / Map など）分けたほうがよいかも
+    - SNSは3/26のF8（Facebookイベント）をもって決めたい
+【声掛けについて】
 　　- FBさんにお声掛け済み（広報OKが必要なので概要を固めて連絡くださいとのこと）  
 　　- 楽天さんにお声掛け済み（平日なら比較的OKと）  
-* 開発ボード話（Arduino / Intel Edison / Rasberry pi2 / JSboard系 / .NET Gagetterなど）（5月予定）
+* 開発ボード話（Arduino / Intel Edison / Rasberry pi2 / JSboard系 / .NET Gagetterなど）（5月くらい？）
 
 ### 今後の勉強会ネタ
-* セキュリティ
+* セキュリティ（にしむねあのセキュリティを語たNight）
+* 開発ツール
+　  - yeoman(*)、VisualStudio(*), Inteli J, NetBeans, WebStorm(*)、Intel XDA
+      (*)第2回で実施済み
 * プラットフォーム/デバイスについて (なにがあるの)
 * プラットフォームのアーキテクチャについて
 * パッケージングと展開について
@@ -31,7 +40,27 @@ HTML5(Web)の知識を使った、クロスデバイス/クロスプラット開
 * 通信と組込み機器のムフフな関係/P2P/
 * ネイティブとハイブリッドの違い
 * 外部機器連携
-* 技術周辺状況  
+* 技術周辺状況
+* マルチプラットフォームソリューション(アプリ開発フレームワーク)
+　　- Titanium Mobile, PhoneGap、Xamarin、Herlock, Applican、MONACA, Trigger.IO, Icenium
+* ポリフィル
+    - Polymer、X tag, HTML5 Boilerplate(html5 shiv,Modernizr同梱) 、レスポンシブ(BootStrap, Respond.js とか)
+* VR（WebVR的なもの）
+    - MozVR（Mozilla）
+    - Oculus Rift（Facebook）
+    - Hololenz（MS）
+    - Unity
+* 開発支援ツール
+　　- Lint 系、Hint 系、Doc 系、Minifire 系
+* html5 ×　クラウド
+    - Azure、AWS、GCP、さくら、ニフティなどなど
+    - オフライン対応や、CPUの不足をどう補うか、といった問題に対する解決策として、クラウドやmBaaS
+    - Webプラ部という文脈だと、Webサーバ以上の話になるべき
+    - HTTP / WebRTC といった通信に着目してそれをハンドルするインフラをどうつくるかという話
+    - クライアントからの要求を処理するAPIの設計とその実装を行うためにはクラウド側をどう設計するべきか
+    - APIの特殊事例としてオフライン処理とデータ共有、とくにデータの一貫性保持をどう行うべきか
+    - アプリケーションバックエンドを提供するサービスをリストアップして、それぞれの良し悪しに関する分析をそれぞれのプロバイダから聞く、という会
+
 
 ### アンケートより
 [前回のアンケート結果より]
