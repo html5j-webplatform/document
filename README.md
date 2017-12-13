@@ -6,11 +6,27 @@ HTML5(Web)の知識を使った、クロスデバイス/クロスプラット開
 * デバイス連携
 
 ### 実施済
-* html5でネイティブアプリが実装できる3つのプラットフォーム【第1回】
-* HTML5 開発ツール天下一武道会 (IDE+α編 : 初夏の陣)【第2回】
-* HTML5 開発ツール天下一武道会 (エディタ 編 : 海開きの陣)【第3回】
-* html5 デバイス API 【第4回】
-* アプリストアでがっぽり儲けNight（マネタイズマネタイズ /エコシステム）【第5回】
+* html5でネイティブアプリが実装できる3つのプラットフォーム【第01回】
+* HTML5 開発ツール天下一武道会 (IDE+α編 : 初夏の陣)【第02回】
+* HTML5 開発ツール天下一武道会 (エディタ 編 : 海開きの陣)【第03回】
+* html5 デバイス API【第04回】 
+* [アプリストアでがっぽり儲けNight（マネタイズマネタイズ /エコシステム）](=https://webplat.doorkeeper.jp/events/20635)【第05回】
+* [フレームワークの世界まる見え！JS特捜部　～ React,Angular,WinJSだらけの2時間SP！～](=https://webplat.doorkeeper.jp/events/22013)【第06回】
+* [Webはいつもあなたを見守っている 〜 IoT/WoT特集 〜](=https://webplat.doorkeeper.jp/events/27429)【第07回】
+* [](=)【第08回】
+* [東京ウェブストーリー　〜スクリプトエラーは突然に〜](=https://webplat.doorkeeper.jp/events/34165)【第09回】
+* [ゆく Web くる Web](=https://webplat.doorkeeper.jp/events/36270)【第10回】
+* [jsアプリ怪獣エレクトロンの育て方と倒し方](=https://webplat.doorkeeper.jp/events/39975)【第11回】
+* [Satis function( ){ ... };](=https://webplat.doorkeeper.jp/events/42974)【第12回】
+* []【第13回】
+* [O1 CLIMAX 2016 - GAS? or O365? -](=https://html5j-webplat.connpass.com/event/41674/)【第14回】
+* [試作アリ 〜 デモってあげる… 〜](=https://html5j-webplat.connpass.com/event/46630/)【第15回】
+* [NO CHALLENGE NO SUCCESS「Webマネーの虎」](=https://html5j-webplat.connpass.com/event/53119/)【第16回】
+* [WEBアニメーション学院](=https://html5j-webplat.connpass.com/event/54040/)【第17回】
+* [優しくしやがれ！！アクセシビリティ/インクルーシブデザイン](=https://html5j-webplat.connpass.com/event/71784/)【第18回】
+* [W.A.S.M featuring PWA](=https://html5j-webplat.connpass.com/event/74013/)【第19回】
+
+* 【第20回】
 
 ### 実施予定ネタ
 
