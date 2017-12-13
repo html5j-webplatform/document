@@ -58,7 +58,7 @@ http://webplat.html5j.org
 ### 告知サイト について  
 * WebPlat の twitter のアカウントを作成し、共有
 * atnd(第1回〜4回)
-* doorkeeper（第5回から12回第5回からdoorkeeper）
+* doorkeeper（第5回〜12回）
 * connpass(第13回〜)
 * Techplay（旧dots）※dotsで行う場合
 
