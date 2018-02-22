@@ -27,6 +27,8 @@ HTML5(Web)の知識を使った、クロスデバイス/クロスプラット開
 * 【第17回】[WEBアニメーション学院](https://html5j-webplat.connpass.com/event/54040/)
 * 【第18回】[優しくしやがれ！！アクセシビリティ/インクルーシブデザイン](https://html5j-webplat.connpass.com/event/71784/)
 * 【第19回】[W.A.S.M featuring PWA](https://html5j-webplat.connpass.com/event/74013/)
+* 【第20回】[レスポンシブ・ウェブ・デザインを学びなおそう](https://html5j-webplat.connpass.com/event/76603/)
+* 【第21回】[X（クロス）プラットフォーム Jump!!!](https://html5j-webplat.connpass.com/event/77267/)
 
 #### スピンアウト企画
 * 【エンプラ部 X Webプラットフォーム部合同勉強会】[120分聞けばドヤ顔で語れる Apache Cordova スーパー勉強会](https://atnd.org/events/51539)
@@ -34,17 +36,13 @@ HTML5(Web)の知識を使った、クロスデバイス/クロスプラット開
 * [シン・Web VRとか文化祭(現実VS仮想現実。)](https://html5j-webplat.connpass.com/event/47239/)
 
 ### 実施予定ネタ
-* 【第20回】RWD（仮）@日本マイクロソフト
-* 【第21回】未定 @GMO Yoursを予定
-* 【第22回】WebRTC->WebGL->three.js->WebVR->WebAR（仮）@DMMを予定
+* 【第22回】WebXR（仮）@DMMを予定
 
 ### 今後の勉強会ネタ
 * UX/UI
 * UIプロトタイピングツール
 * ES6/TypeScript
 * Vue/Angular/React
-* Native Script/ReactNative/Cordova
-* ReactVR
 
 ===
 
