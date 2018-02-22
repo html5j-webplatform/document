@@ -57,10 +57,11 @@ HTML5(Web)の知識を使った、クロスデバイス/クロスプラット開
 ===
 
 ### ホームページについて  
-github page を使用する  
-URL は html5j にサブドメインを切ってもらい、以下とする  
-http://webplat.html5j.org  
-  
+github page を使用する
+gh-pagesのブランチを切ってGitHubページをつくるパターン
+URL は html5j にサブドメインを切ってもらい、以下とする
+http://webplat.html5j.org  
+  
 ===
 
 ### 告知サイト について  
