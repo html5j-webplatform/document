@@ -28,7 +28,6 @@ HTML5(Web)の知識を使った、クロスデバイス/クロスプラット開
 * 【第18回】[優しくしやがれ！！アクセシビリティ/インクルーシブデザイン](https://html5j-webplat.connpass.com/event/71784/)
 * 【第19回】[W.A.S.M featuring PWA](https://html5j-webplat.connpass.com/event/74013/)
 * 【第20回】[レスポンシブ・ウェブ・デザインを学びなおそう](https://html5j-webplat.connpass.com/event/76603/)
-* 【第21回】[X（クロス）プラットフォーム Jump!!!](https://html5j-webplat.connpass.com/event/77267/)
 
 #### スピンアウト企画
 * 【エンプラ部 X Webプラットフォーム部合同勉強会】[120分聞けばドヤ顔で語れる Apache Cordova スーパー勉強会](https://atnd.org/events/51539)
@@ -36,13 +35,24 @@ HTML5(Web)の知識を使った、クロスデバイス/クロスプラット開
 * [シン・Web VRとか文化祭(現実VS仮想現実。)](https://html5j-webplat.connpass.com/event/47239/)
 
 ### 実施予定ネタ
+* 【第21回】[X（クロス）プラットフォーム Jump!!!](https://html5j-webplat.connpass.com/event/77267/)
 * 【第22回】WebXR（仮）@DMMを予定
 
+
 ### 今後の勉強会ネタ
-* UX/UI
-* UIプロトタイピングツール
-* ES6/TypeScript
+* AMP/PWA（事例ベース）
+* UX/HCD サービス設計
+* UI/UX
+* UIプロトタイピングツール(InVision + Sketch / Adobe XD / Origami Studio + Sketch)
+* デザインワークフロー（Photoshop/illustrator/Sketch）
+* CSSフレームワーク
+* XPlat part2（事例）
+* WebXR part2
+* Web MIDI / Web USB / Web Bluetooth API / Web Audio API
+* jQuery
 * Vue/Angular/React
+* ES6/TypeScript
+* JSテストツール
 
 ===
 
@@ -59,7 +69,7 @@ http://webplat.html5j.org
 * doorkeeper（第5回〜12回）
 * connpass(第13回〜)
 * Techplay（旧dots）※dotsで行う場合
-
+* 積極的にhtml5j本体のconnpassアカウントも使ったほうがいい（あちらには4,000人いるから）
 ===
 
 ### 勉強会の実施について
