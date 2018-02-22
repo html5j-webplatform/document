@@ -56,11 +56,11 @@ HTML5(Web)の知識を使った、クロスデバイス/クロスプラット開
 
 ===
 
-### ホームページについて  
-github page を使用する
-gh-pagesのブランチを切ってGitHubページをつくるパターン
-URL は html5j にサブドメインを切ってもらい、以下とする
-http://webplat.html5j.org  
+### ホームページについて  
+* github page を使用する
+* gh-pagesのブランチを切ってGitHubページをつくるパターン
+* URL は html5j にサブドメインを切ってもらい、以下とする
+* http://webplat.html5j.org  
   
 ===
 
@@ -74,6 +74,7 @@ http://webplat.html5j.org  
 ===
 
 ### 勉強会の実施について
+
 会場と、以下のスタッフ人数を確保が必要
 * 入館証係 1 名
 * 受付 1.5 名
@@ -81,4 +82,8 @@ http://webplat.html5j.org  
 * 司会 1 名
 最低 4 名のスタッフが必要
 
-### 勉強会の候補について
+### 勉強会会場の候補について
+* 日本マイクロソフト
+* GMO Yours
+* DMM
+* ドワンゴ
