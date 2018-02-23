@@ -55,7 +55,7 @@ HTML5(Web)の知識を使った、クロスデバイス/クロスプラット開
 * JSテストツール
 
 ### 今後のイベントネタ
-* WebXRとか文化祭
+* WebXRとか文化祭  
 
 ===
 
@@ -63,8 +63,8 @@ HTML5(Web)の知識を使った、クロスデバイス/クロスプラット開
 * github page を使用する
 * gh-pagesのブランチを切ってGitHubページをつくるパターン
 * URL は html5j にサブドメインを切ってもらい、以下とする
-* http://webplat.html5j.org  
-  
+* http://webplat.html5j.org  
+
 ===
 
 ### 告知サイト について  
@@ -73,7 +73,8 @@ HTML5(Web)の知識を使った、クロスデバイス/クロスプラット開
 * doorkeeper（第5回〜12回）
 * connpass(第13回〜)
 * Techplay（旧dots）※dotsで行う場合
-* 積極的にhtml5j本体のconnpassアカウントも使ったほうがいい（あちらには4,000人いるから）
+* 積極的にhtml5j本体のconnpassアカウントも使ったほうがいい（あちらには4,000人いるから）  
+
 ===
 
 ### 勉強会の実施について
