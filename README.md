@@ -49,6 +49,7 @@ HTML5(Web)の知識を使った、クロスデバイス/クロスプラット開
   - Sketch + Origami Studio 
   - Sketch + Framer
   - Sketch + Figma
+  - Gallery
 * CSSフレームワーク
 * XPlatform
 * WebXR
