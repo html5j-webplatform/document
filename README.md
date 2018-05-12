@@ -41,7 +41,14 @@ HTML5(Web)の知識を使った、クロスデバイス/クロスプラット開
 ### 今後の勉強会ネタ
 * AMP/PWA
 * UX/HCD
-* UIプロトタイピングツール(ワークフローや
+* UIプロトタイピングツール(ワークフローやデザイン共有など）
+  - AdobeXD
+  - Sketch
+  - inVisionStudio
+  - Indigo Studio
+  - Sketch + Origami Studio 
+  - Sketch + Framer
+  - Sketch + Figma
 * CSSフレームワーク
 * XPlatform
 * WebXR
@@ -49,6 +56,23 @@ HTML5(Web)の知識を使った、クロスデバイス/クロスプラット開
 * jQuery
 * Vue/Angular/React
 * JSテストツール
+* NodeRED
+* Pjax, 最近の jQuery
+* インディーズ・フレームワーク(Angular、React と Vue.js 以外)
+* ビルドシステム
+* WebAssenbly(C++,C/C#/GO/Rust/TypeScript)
+* プログラマ向けのデザイン入門(ページ/アプリの非言語部分を作る作業としてのデザイン)
+* BrainPad
+* ゲームエンジン
+* ビジュアライゼーション(D3.js)
+* HTMLメール
+* Webでやる動画配信周り (WebRTC)
+* 5G vs PWA 
+* アングラ Web 技術(Symbol/Generator/WebSocket)
+* Async/Await
+* デバッグツールとテストツール
+* チャット Bot (Cognitive)
+
 
 ### 今後のイベントネタ
 * WebXRとか文化祭  
@@ -84,7 +108,7 @@ HTML5(Web)の知識を使った、クロスデバイス/クロスプラット開
 
 ### 勉強会会場の候補について
 * 日本マイクロソフト
-* GMO Yours
-* DMM
-* ドワンゴ
-* その他
+* GMO Yours (2ヶ月前には言わないとおさえられない)
+* DMM (2ヶ月前には言わないとおさえられない)
+* ドワンゴ（レスが遅い）
+* サイバーエージェント
