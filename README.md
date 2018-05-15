@@ -41,15 +41,15 @@ HTML5(Web)の知識を使った、クロスデバイス/クロスプラット開
 ### 今後の勉強会ネタ
 * AMP/PWA
 * UX/HCD
-* UIプロトタイピングツール(ワークフローやデザイン共有など）
-  - AdobeXD
-  - Sketch
-  - inVisionStudio
-  - Indigo Studio
-  - Sketch + Origami Studio 
-  - Sketch + Framer
-  - Sketch + Figma
-  - Gallery
+* UIプロトタイピングツール(ワークフローやデザイン共有など）  
+  - AdobeXD
+  - Sketch
+  - inVisionStudio
+  - Indigo Studio
+  - Sketch + Origami Studio
+  - Sketch + Framer
+  - Sketch + Figma
+  - Gallery  
 * CSSフレームワーク
 * XPlatform
 * WebXR
