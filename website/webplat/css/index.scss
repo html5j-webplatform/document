@@ -1,0 +1,987 @@
+//XD のすべてのサイズに 0.625 をかけること
+//$block-pageHeight: 2380px;
+$block-pageWidth: 1200px;
+$block-min-pageWidth: 750px;
+
+$block-topBar-height : 75px;
+$block-topPicturebox-height: 345px;
+$topPicture-R-top-height : $block-topPicturebox-height * 0.6;
+$topPicture-R-low-height : $block-topPicturebox-height * 0.4;
+
+$element-logoBoxHW : 260px;
+$element-logoBox-margin-left: 73px;
+
+
+$element-webplat-logo-width :200px;
+$element-5j-logo-width: 165px;
+
+
+$base-circles-height: 100px;
+$base-circles-widht: 100px;
+$topBar-items-margin: 13px;
+
+$lement-circle-link-HxW :50px;
+
+$block-portal-msgbox-height: 345px;
+$block-portal-msgbox-width: 712px;
+
+$wide-allow-width: 140px;
+
+$readmore-width: 190px;
+$readmore-height: 37.5px;
+
+$infobox-section-topmargin : 70px;//35px;
+$block-infobox-height: 371px;
+$block-infobox-width: 756px;
+
+$block-infobox-min-width : 375px;
+
+$block-carousel-box-width : $block-infobox-width;
+$block-carousel-box-min-width : $block-infobox-min-width;
+
+$element-carousel-item-heigth: 244px;
+$element-carousel-item-width: 225px;
+
+$event-thumb-height: 131px;
+$element-date-label-height: 31px;
+
+$element-event-explain-height: $element-carousel-item-heigth - $event-thumb-height - $element-date-label-height;
+
+$block-page-footer-height : 125px;
+
+//ループして丸メニューを生成
+$color-statement : #E4007F;
+$color-event:#FFD800;
+$color-movie: #009944;
+$color-joinus:#00A0E9;
+$color-policy:#9F9F9F;
+
+$circleMenuColors : "statement","event","movie","joinus","policy";
+$circleColors : #{$color-statement}, #{$color-event}, #{$color-movie},#{$color-joinus}, #{$color-policy};
+
+ 
+
+
+$test-color:blue;
+
+
+//モバイル用
+@media screen  and (max-width:750px) {
+/*
+    .block-root{
+        //height: $block-pageHeight;
+        width: 400px;
+        min-width: 400px;
+        margin: 0 auto;
+     }
+*/
+
+    #block-topPuctureBox{
+        height: $block-topPicturebox-height;
+        width: 100%;
+    }
+
+    #block-topBar-container{
+        display: none;
+    }
+
+    #block-topPicture-right{
+        display: none;
+    }
+
+    //Web プラ部のロゴが入ってるBox
+    #element-logoBox{
+        height: $element-logoBoxHW;
+        width: $element-logoBoxHW;
+        margin: 0 auto;
+        position:relative;
+    }
+    //Web プラ部のロゴ
+    #element-webplat-logo{
+        width: $element-webplat-logo-width;
+        height: 225px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+    }
+    
+    .block-topPicture-harf{
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #vwHeader-img{
+        width: 375px;
+        height: 120px;
+    }
+
+    #block-vwHader-img{
+        width:375px; 
+        margin: 0 auto;
+    }
+    
+
+    #element-hbg-button{
+        top: 20px;
+        left: calc(100% - 60px);
+        position: absolute;
+        cursor : pointer;
+        z-index: 999;
+    }
+
+    #block-hbg-bracket{
+        display: none;
+        position:fixed;
+        right:0;
+        top:0;
+        z-index: 999;
+    }
+
+    #element-hbg-close{
+        width: 59px;
+        height: 52px;
+        float: left;
+    }
+
+    #block-hbg-menu{
+        width: 226px;
+        height: 500px;
+        background-color: black;
+        float: left;
+    }
+    
+    #block-hbg-logo{
+        width:194px;
+        cursor : pointer;
+        margin: 0 auto;
+    }
+
+    #element-hbg-logo{
+        margin-top: 10px;
+    }
+    
+    .block-hbg-item{
+        margin: 16px;
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+        cursor : pointer;
+    }
+
+    #hbg-indicator-statement{
+        color:$color-statement;
+    }
+
+    #hbg-indicator-event{
+        color: $color-event;
+    }
+
+    #hbg-indicator-movie{
+        color: $color-movie;
+    }
+
+    #hbg-indicator-joinus{
+        color: $color-joinus;
+    }
+
+    #hbg-indicator-policy{
+        color: $color-policy;
+    }
+
+    .hbg-sns-image{
+        width: 30px;
+        height: 30px;
+        cursor : pointer;
+    };
+
+    #hbg-mail{
+        margin-top: 5px;
+        cursor : pointer;
+    }
+
+    #block-portal-msgbox{
+        //height: $block-portal-msgbox-height;
+        width: $block-infobox-min-width;
+        margin: 0 auto;
+    }
+    
+    //カラーな区切り線
+    .element-color-border{
+        margin-top: $infobox-section-topmargin;
+        width: $block-infobox-min-width;
+    }
+    
+    .block-colorborder-placeholder{
+        margin: 0 auto;
+        width: $block-infobox-min-width;
+    }
+
+    #carousel-left-allow{
+        display: none;
+    }
+    
+    #carousel-right-allow{
+        display: none;
+    }
+
+    .carousel-controls-placeholder{
+        margin: 0 auto;
+    }
+
+    .block-carousel-box{
+        width: 100%; // $block-carousel-box-min-width;
+        height: $element-carousel-item-heigth + 2;
+        margin: 0 auto;
+        //height: 307px;
+        overflow-x: scroll;
+        overflow-y: hidden;
+    }
+    
+    .block-carousel-list{
+        width: $block-carousel-box-min-width * 2;
+        height: $element-carousel-item-heigth;
+        margin-left: 10px;
+    }
+
+    .block-carousel-movie-box{
+        width: 100%; //$block-carousel-box-width;
+        height: 175px;
+        margin: 0 auto;
+        //height: 307px;
+        overflow-x: scroll;
+        overflow-y: hidden;
+    }
+
+    #carousel-left-allow2{
+        display: none;
+    }
+
+    #carousel-right-allow2{
+        display: none;
+    }
+
+    .block-carousel-movie-list{
+        //width: $block-carousel-box-min-width * 2;
+        height: 169px;
+        margin-left: 10px;
+    }
+
+    .block-infobox-container{
+        width: $block-infobox-min-width;
+        //height: $block-infobox-height;
+        margin: 0 auto;
+    }
+    
+    .block-infobox {
+        margin-top: $infobox-section-topmargin;
+        width: $block-infobox-min-width;
+        //height: $block-infobox-height;
+    }
+
+    #block-recruit-article{
+        width: 300px; //$block-infobox-min-width;
+        margin: 0 auto;
+    }
+    
+    #element-recruit-pic{
+        width: 300px;//$block-infobox-min-width;
+        height: 300px; //207px;
+        margin: 0 auto;
+        //background-color: teal;
+    }
+      
+    #block-footer-placeholder{
+        width: $block-min-pageWidth;
+    }
+
+    #block-5j-logo{
+        display: none;
+    }
+
+    #block-footer-items{
+        //float:right;
+        //margin-right: 30px;
+        width: 128px;
+        margin: 0 auto;
+    }
+    
+    #element-5j-copyright{
+        text-align: center; 
+        float: left;
+        margin-top: 20px;
+        color: white;
+        font-size: 10px;
+    }
+
+    #block-otherPage-header{
+        background-color: #f0f9fe;
+    }
+
+    #block-dl-placeholder{
+        margin-top: 70px;
+        //height: 265px;
+        width: $block-infobox-min-width;
+        margin: 0 auto;
+    }
+
+    #block-dl-logo{
+        width: 244px;
+        height:263px;
+        border-style: solid;
+        border-color: black;
+        border-width: 1px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    
+    
+    #element-dl-description{
+        margin-top: 30px;
+        //width: $block-infobox-min-width;
+    }
+    
+    .block-event-item-logo{
+        width: 94px;
+        height: 94px;
+        border-style: solid;
+        border-color: black;
+        border-width: 1px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #pgTopButton {
+        visibility: hidden;
+        position: fixed;
+        top: calc(100vh - 170px);
+        left: calc(100vw - 45px);
+    }
+}
+
+//PC 用
+@media screen  and (min-width:751px) {
+
+    /*　画面サイズが 751px 以上はここを読み込む　*/
+body{
+    margin: 0%;
+    font-family: 'Hiragino Sans',メイリオ;
+}
+
+.lineBreak {
+    clear: both;
+}
+
+#block-base{
+    width: 100%;
+}
+
+//Size of page.
+.block-root{
+   //height: $block-pageHeight;
+   width: $block-pageWidth;
+   margin: 0 auto;
+}
+
+#block-topBar-container{
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+
+//Bar in top of page.
+#block-topBar{
+    height:$block-topBar-height;
+    width: $block-pageWidth;
+    background-color: white;
+    margin: 0 auto;
+}
+
+#element-toppage-logo{
+    float: left;
+    margin-left: 20px;
+    cursor : pointer;
+}
+
+//トップメニューバーの中の丸とかのリンクのコンテナ
+#block-topBar-items{
+    float: right;
+    width: 455px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@each $circleMenu in $circleMenuColors  {
+    $index_key: index($circleMenuColors, $circleMenu);
+    #element-circle-#{$circleMenu} {
+      background-color: nth($circleColors, $index_key);
+      height: $lement-circle-link-HxW;
+      width: $lement-circle-link-HxW;
+      border-radius: 50%;
+      margin-left: $topBar-items-margin;
+      color: white;
+      text-align:center;
+      line-height: $lement-circle-link-HxW;
+      vertical-align: middle;
+      font-size: 9px;
+      font-weight: bold;
+      float: left;
+      cursor : pointer;
+    }
+  }
+
+//トップメニューバーの[CONTACT] リンク
+#element-contact-link{
+    cursor : pointer;
+    margin-left: $topBar-items-margin;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+//トップメニューバーの縦の区切り線
+#element-V-border{
+    height: 60%;
+    width: $topBar-items-margin;
+    margin-left: $topBar-items-margin;
+    border-left: 1px solid gray;
+    border-width: 2px;
+}
+
+#element-5j-logo{
+    width: $element-5j-logo-width;
+    //margin-left: $topBar-items-margin;
+}
+
+#block-topPuctureBox{
+    height: $block-topPicturebox-height;
+    width: $block-pageWidth;
+    margin-top: $block-topBar-height;
+}
+
+//
+.block-topPicture-harf{
+    height: $block-topPicturebox-height - 2px;
+    width: 50%;
+    float: left;
+}
+
+#element-topPicture-R-top{
+    height: $topPicture-R-top-height;
+    width: 100%;
+    background-color: $test-color;
+}
+
+.element-topPicture-R-low{
+    height: $topPicture-R-low-height;
+    width: 50%;
+    float: left;
+}
+
+.element-topImg-R-low{
+    height: 150px;
+}
+
+
+//Web プラ部のロゴが入ってるBox
+#element-logoBox{
+    height: $element-logoBoxHW;
+    width: $element-logoBoxHW;
+    margin-left: $element-logoBox-margin-left;
+    position:relative;
+}
+//Web プラ部のロゴ
+#element-webplat-logo{
+    width: $element-webplat-logo-width;
+    height: 225px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+//ハンバーガーメニューボタン
+#element-hbg-button{
+    display: none;
+}
+
+#block-hbg-bracket{
+    display: none;
+}
+
+#block-hbg-menu{
+    display: none;
+}
+
+#block-portal-msgbox{
+    //height: $block-portal-msgbox-height;
+    //width: $block-portal-msgbox-width;
+    max-width: $block-portal-msgbox-width;
+    padding: 10px;
+    margin: 0 auto;
+    
+}
+
+//カラーな区切り線
+.element-color-border{
+    margin-top: $infobox-section-topmargin;
+    width: $block-infobox-width;
+}
+
+.block-colorborder-placeholder{
+    margin: 0 auto;
+    width: $block-infobox-width;
+}
+
+.block-infobox-container{
+    width: $block-infobox-width;
+    //height: $block-infobox-height;
+    margin: 0 auto;
+}
+
+.block-infobox {
+    margin-top: $infobox-section-topmargin;
+    width: $block-infobox-width;
+    //height: $block-infobox-height;
+}
+
+
+.block-carousel-box{
+    width: $block-carousel-box-width;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    //height: 307px;
+}
+
+.block-carousel-list{
+    //width: $block-carousel-box-width;
+    height: $element-carousel-item-heigth + 5;
+    margin-left: 10px;
+    -ms-overflow-style:none;
+}
+
+.block-carousel-controls{
+    width: 100%;
+    margin-top: 35px;
+}
+
+#carousel-left-allow{
+    cursor: pointer;
+    /*
+    height: 30px;
+    width: 120px;
+    */
+}
+
+#carousel-right-allow{
+    cursor: pointer;
+    /*
+    height: 30px;
+    width: 120px;
+    */
+}
+
+#carousel-left-allow2{
+    cursor: pointer;
+}
+
+#carousel-right-allow2{
+    cursor: pointer;
+}
+
+.carousel-controls-placeholder{
+    width: 33%; 
+    float: left;
+}
+
+#block-event-carousel-scroll-hidden{
+    height: 250px; 
+    overflow: hidden;   
+}
+
+.block-infobox2 {
+    margin-top: $infobox-section-topmargin;
+    width: $block-infobox-width;
+    //height:232px;
+}
+
+.block-carousel-movie-box{
+    width: $block-carousel-box-width;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    height: 175px;
+}
+
+#block-movie-carousel-scroll-hidden{
+    height: 160px; 
+    overflow: hidden;   
+}
+
+.block-carousel-movie-list{
+    width: $block-carousel-box-width;
+    height: 169px;
+    margin-left: 10px;
+}
+
+.block-movie-thumb{
+    width: 100%;
+    height: 169px;
+}
+
+#block-recruit-article{
+    width: 60%;float: left;
+}
+
+#element-recruit-pic{
+    width: 40%;
+    height: 300px; //207px;
+    background-color: teal;
+    float: left;
+}
+
+#block-footer-placeholder{
+    width: $block-pageWidth;
+}
+
+#block-footer-items{
+    float:right;
+    margin-right: 30px;
+}
+
+
+#element-5j-copyright{
+    width: 200px; 
+    text-align: right; 
+    float: left;
+    margin-top: 20px;
+    color: white;
+    font-size: 10px;
+}
+
+#block-otherPage-header{
+    background-color: #f0f9fe;
+    margin-top: 75px;
+}
+
+#vwHeader-img{
+    width: 960px;
+    height: 150px;
+}
+
+#block-vwHader-img{
+    width:960px; 
+    margin: 0 auto;
+}
+
+
+#block-dl-placeholder{
+    margin-top: 70px;
+    height: 265px;
+    width: $block-portal-msgbox-width;
+    margin: 0 auto;
+}
+
+#block-dl-logo{
+    width: 244px;
+    height:263px;
+    float: left;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#element-dl-description{
+    float: left;
+    margin-left: 10px;
+    width: 458px;
+    height: 100%;
+}
+
+.block-info-placeholder{
+    margin-bottom: 70px;
+}
+
+.block-policyPage-airticles{
+    margin-top: 70px;
+}
+
+.block-event-item-logo{
+    width: 94px;
+    height: 94px;
+    float: left;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.element-event-item{
+    margin-top: 30px;
+}
+
+.block-event-item-content{
+    float: left;
+}
+
+
+#pgTopButton {
+    visibility: hidden;
+    position: fixed;
+    top: calc(100vh - 170px);
+    left: calc(100% - 45px);
+}
+
+
+}
+
+//*************
+// 両方で使える
+
+.element-article-h{
+    margin-top: 40px;
+    font-size: 23px;
+    text-align: center;
+}
+
+.element-content{
+    margin-top: 20px;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.block-wide-allow{
+    width: $wide-allow-width;
+    margin: 0 auto;
+}
+
+.element-wide-allow{
+    width: $wide-allow-width;
+    margin-top: 42px;
+}
+
+.block-readmore{
+    width: $readmore-width;
+    margin: 0 auto;
+}
+
+//[詳細を見る] ボタン
+#element-readmore{
+    width: $readmore-width;
+    background-color:#FF80E2; 
+    font-size:16px; 
+    margin-top: 10px; 
+    height:$readmore-height;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    cursor : pointer;
+}
+
+
+.element-infobox-h1{
+    text-align: center;
+    font-size: 26px;
+    font-weight: normal;
+}
+
+.element-infobox-h2{
+    text-align: center;
+    font-size: 20px;
+    line-height: 18px;
+    margin-top: -10px; 
+}
+
+
+.element-carousel-item{
+    //height: $element-carousel-item-heigth;
+    width: $element-carousel-item-width;
+    margin-right: 20px;
+    box-shadow: 4px 4px 4px gainsboro;
+    float: left;
+}
+
+.block-event-thumb{
+    width: 100%;
+    height: $event-thumb-height;
+}
+
+.element-event-thumb{
+    width: 100%;
+    height: 138px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.element-date-label{
+    width: 100%;
+    height: $element-date-label-height;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 8px;
+}
+
+.element-event-explain{
+    width: 100%;
+    height: $element-event-explain-height;
+    background-color: #FFD800;
+    padding: 8px;
+    font-size: 12px;
+}
+
+.carousel-button-placeholder{
+    width: 190px;
+    margin: 0 auto;
+}
+
+.carousel-button{
+    width: $readmore-width;
+    font-size:16px; 
+    margin-top: 10px; 
+    height:$readmore-height;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    cursor : pointer;
+}
+
+.element-carousel-movie-item{
+    height: 90%;
+    width: $element-carousel-item-width;
+    margin-right: 20px;
+    box-shadow: 4px 4px 4px gainsboro;
+    float: left;
+}
+
+#block-flex-movie-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.element-flex-movie-item{
+    height: 100%;
+    width: $element-carousel-item-width;
+    margin: 10px;
+    //box-shadow: 4px 4px 4px gainsboro;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+
+#element-Inquiry{
+    width: $readmore-width;
+    background-color:#4DCFFF; 
+    font-size:16px; 
+    margin-top: 10px; 
+    height:$readmore-height;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+
+
+#block-page-footer{
+    height: $block-page-footer-height; 
+    background-color: black;
+    width: 100%;
+    margin-top: 25px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.element-sns-placeholder{
+    height: 25px;
+    width: 25px;
+    float: left;
+}
+.element-sns-icon{
+    height: 25px;
+    width: 25px;
+}
+
+#element-dl-logo{
+    width: 213px;
+    height: 259px;
+}
+
+.element-event-indicator-yet{
+    background-color: #FFD800;
+    width: 100px;
+    height: 18px; 
+    font-size: 10px;
+    font-weight: bold;
+    padding: 3px;
+}
+
+.element-event-indicator-done{
+    background-color: #E0E0E0;
+    width: 100px;
+    height: 18px; 
+    font-size: 10px;
+    font-weight: bold;
+    padding: 3px;
+}
+
+.element-event-apply-href{
+    font-size: 12px;
+    padding: 10px;
+}
+
+.block-event-titile{
+    margin-top: 20px;
+    margin-left: 10px;
+    height: 18px; 
+    overflow: hidden;
+}
+
+.element-event-item-img{
+    width:auto;
+    height:auto;
+    max-width:100%;
+    max-height:100%;
+}
+
+.element-infobox-h1{
+    text-align: center;
+    font-size: 26px;
+    font-weight: normal;
+}
+
+.element-infobox-h2{
+    text-align: center;
+    font-size: 20px;
+    line-height: 18px;
+    margin-top: -10px; 
+}
+
+.element-policyPage-artice-h2{
+    font-size: 18px;font-weight: normal;
+    text-align: center;
+}
+
+.element-policyPage-artice{
+    margin-top: 12px;
+    font-size: 12px;
+}
+

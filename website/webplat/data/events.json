@@ -1,0 +1,118 @@
+[
+    {
+        "title" : "html5j - Webプラットフォーム部 勉強会 第1回",
+        "datetime" : "2014-04-09(水)",
+        "image":"",
+        "url" : "https://techplay.jp/event/44022"
+    },{
+        "title" : "第2回勉強会 HTML5 開発ツール天下一武道会 (IDE+α編 : 初夏の陣)",
+        "datetime" : "2014-06-09(水)",
+        "image":"",
+        "url" : "https://atnd.org/events/51361"
+    },{
+        "title" : "第3回勉強会 HTML5 開発ツール天下一武道会 (エディタ 編 : 海開きの陣)",
+        "datetime" : "2014-08-04(月)",
+        "image":"",
+        "url" : "https://atnd.org/events/52247"
+    },{
+        "title" : "第4回勉強会 HTML5 デバイス API 勉強会",
+        "datetime" : "2014-10-30(木)",
+        "image":"",
+        "url" : "https://atnd.org/events/57733"
+    },{
+        "title" : "第5回勉強会 アプリストアとマネタイズ ♥がっぽり儲けNight♥",
+        "datetime" : "2015-02-16(月)",
+        "image":"",
+        "url" : "https://webplat.doorkeeper.jp/events/20635"
+    },{
+        "title" : "第6回勉強会 フレームワークの世界まる見え！JS特捜部　～ React,Angular,WinJSだらけの2時間SP！～",
+        "datetime" : "2015-05-18(月)",
+        "image":"images/events/22013.png",
+        "url" : "https://webplat.doorkeeper.jp/events/22013"
+    },{
+        "title" : "第7回勉強会 Webはいつもあなたを見守っている 〜 IoT/WoT特集 〜",
+        "datetime" : "2015-07-08(水)",
+        "image" : "images/events/27429.png",
+        "url" : "https://webplat.doorkeeper.jp/events/27429"
+    },{
+        "title" : "第8回勉強会 - 白い雲のように【IoT/WoTバージョン】",
+        "datetime" : "2015-08-18 (火)",
+        "image":"",
+        "url" : "https://techplay.jp/event/567194"
+    },{
+        "title" : "第9回勉強会　東京ウェブストーリー　〜スクリプトエラーは突然に〜",
+        "datetime" : "2015-11-17(火)",
+        "image" : "images/events/34165.png",
+        "url" : "https://webplat.doorkeeper.jp/events/34165"
+    },{
+        "title" : "第10回勉強会 ゆく Web くる Web",
+        "datetime" : "2015-12-22(火)",
+        "image": "images/events/36270.png",
+        "url" : "https://webplat.doorkeeper.jp/events/36270"
+    },{
+        "title" : "第11回勉強会 jsアプリ怪獣エレクトロンの育て方と倒し方",
+        "datetime" : "2016-03-07(月)",
+        "image":"images/events/39975.png",
+        "url" : "https://webplat.doorkeeper.jp/events/39975"
+    },{
+        "title" : "第12回勉強会 Satis function( ){ ... };",
+        "datetime" : "2016-04-28(木)",
+        "image":"images/events/42974.png",
+        "url" : "https://webplat.doorkeeper.jp/events/42974"
+    },{
+        "title" : "第13回勉強会 〜Web に VR を求めるのは間違っているだろうか?〜",
+        "datetime" : "2016-07-13(水)",
+        "image":"",
+        "url" : "https://techplay.jp/event/593174"
+    },{
+        "title" : "第14回勉強会 O1 CLIMAX 2016 - GAS? or O365? -",
+        "datetime" : "2016-07-13(水)",
+        "image":"images/events/41674.png",
+        "url" : "https://html5j-webplat.connpass.com/event/41674/"
+    },{
+        "title" : "Web VRとか文化祭(html5j Webプラットフォーム部スピンアウト企画)",
+        "datetime" : "2016-11-23(水)",
+        "image":"images/events/44248.png",
+        "url" : "https://html5j-webplat.connpass.com/event/44248/"
+    },{
+        "title" : "第15回勉強会 試作アリ 〜 デモってあげる… 〜",
+        "datetime" : "2016-12-21(水)",
+        "image":"images/events/46630.png",
+        "url" : "https://html5j-webplat.connpass.com/event/46630/"
+    },{
+        "title" : "シン・Web VRとか文化祭",
+        "datetime" : "2017-01-14(土)",
+        "image":"images/events/47239.png",
+        "url" : "https://html5j-webplat.connpass.com/event/47239/"
+    },{
+        "title" : "第16回勉強会 NO CHALLENGE NO SUCCESS「Webマネーの虎」",
+        "datetime" : "2017-03-24(金)",
+        "image":"images/events/53119.png",
+        "url" : "https://html5j-webplat.connpass.com/event/53119/"
+    },{
+        "title" : "第17回勉強会 WEBアニメーション学院",
+        "datetime" : "2017-04-21(金)",
+        "image":"images/events/54040.png",
+        "url" : "https://html5j-webplat.connpass.com/event/54040/"
+    },{
+        "title" : "第18回勉強会 優しくしやがれ！！アクセシビリティ/インクルーシブデザイン",
+        "datetime" : "2017-11-22(水)",
+        "image":"images/events/71784.png",
+        "url" : "https://html5j-webplat.connpass.com/event/71784/"
+    },{
+        "title" : "第19回勉強会 W.A.S.M featuring PWA",
+        "datetime" : "2017-12-19(火)",
+        "image":"images/events/74013.png",
+        "url" : "https://html5j-webplat.connpass.com/event/74013/"
+    },{
+        "title" : "第20回勉強会 レスポンシブ・ウェブ・デザインを学びなおそう",
+        "datetime" : "2018-01-31(水)",
+        "image":"images/events/76603.png",
+        "url" : "https://html5j-webplat.connpass.com/event/76603/"
+    },{
+        "title" : "第21回勉強会 X(クロス)プラットフォーム Jump!!!",
+        "datetime" : "2018-02-26(水)",
+        "image":"images/events/77267.png",
+        "url" : "https://html5j-webplat.connpass.com/event/77267/"
+    }                
+]
