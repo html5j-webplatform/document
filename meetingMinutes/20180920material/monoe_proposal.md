@@ -16,7 +16,7 @@
 我々のコミュニティの歩んて来た輝かしい活動の足跡を見てみましょう。
   
 ![slide5.png](https://raw.githubusercontent.com/html5j-webplatform/document/master/meetingMinutes/20180920material/img/slide5.png "html5j-Webプラットフォーム部の今後の活動について")   
-我々 html5j-Web プラットフォーム部が設立以来行った勉強会の回数は 21 回をかぞえ、その途中には WebVR をテーマにしたまるでカンファレンスのような大きなイベントもありました。  
+我々 html5j-Web プラットフォーム部が設立以来行った勉強会の回数は 21 回をかぞえ、その途中には WebVR をテーマにした、まるでカンファレンスのような大きなイベントもありました。  
 つまり、我々にはこれを行ってきた実績と、これからもそれらを行う力があるのです。
   
 ![slide6.png](https://raw.githubusercontent.com/html5j-webplatform/document/master/meetingMinutes/20180920material/img/slide6.png "html5j-Webプラットフォーム部の今後の活動について")  
